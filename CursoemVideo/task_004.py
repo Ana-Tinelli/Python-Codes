@@ -1,0 +1,6 @@
+n = input("Type something:")
+print("The primitive value is: ", (type(n)))
+print("Is this value numeric:", n.isnumeric())
+print("Is this value alphabetic:", n.isalpha())
+print("Is this value alphanumeric:", n.isalnum())
+print("Is this value lowercase:", n.islower())
